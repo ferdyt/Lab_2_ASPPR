@@ -29,11 +29,3 @@
 розрахунок у desmos для двоїстої задачі:
 
 <img width="1919" height="1079" alt="Знімок екрана 2026-03-29 160043" src="https://github.com/user-attachments/assets/99dba52a-be18-476f-9975-7c1cccb99cf1" />
-
-### Тестовий випадок
-Початкова симплекс таблиця:
-
-<img width="378" height="155" alt="image" src="https://github.com/user-attachments/assets/a1b3ed51-68db-4243-b9a8-3295bb2da5ac" />
-
-Результат роботи програми:
-
