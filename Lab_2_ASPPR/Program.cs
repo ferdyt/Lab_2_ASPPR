@@ -784,12 +784,14 @@ void FindDoubleSolution()
 
     Console.WriteLine("\nПошук опорного розв\'язку...");
     matrix = DualInputFindReferenceSolution(matrix);
+    if (matrix == null) return;
     matrix.PrintMatrixWithDualHeaders();
     Console.WriteLine(GetResultX(matrix));
     Console.WriteLine(matrix.GetFinalUValue());
 
     Console.WriteLine("\nПошук оптимального розв\'язку...");
     matrix = DualInputFindOptimalSolution(matrix);
+    if (matrix == null) return;
     matrix.PrintMatrixWithDualHeaders();
     Console.WriteLine(GetResultX(matrix));
     Console.WriteLine(matrix.GetFinalUValue());
